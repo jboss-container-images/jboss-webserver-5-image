@@ -1,0 +1,74 @@
+schema_version: 1
+
+name: "jboss-webserver-5/webserver50-tomcat9"
+description: "Red Hat JBoss Web Server 5.0 Tomcat 9 container image"
+version: "5.0.0"
+from: "jboss/openjdk18-rhel7:1.1"
+labels:
+    - name: "com.redhat.component"
+      value: "jboss-webserver-5-webserver50-tomcat9-container"
+    - name: "org.jboss.product"
+      value: "webserver-tomcat9"
+    - name: "org.jboss.product.version"
+      value: "5.0.0"
+    - name: "org.jboss.product.webserver-tomcat9.version"
+      value: "5.0.0"
+    - name: "org.jboss.deployments-dir"
+      value: "/opt/jws-5.0/tomcat/webapps"
+    - name: "com.redhat.deployments-dir"
+      value: "/opt/jws-5.0/tomcat/webapps"
+    - name: "com.redhat.deployments-dir"
+      value: "/opt/jws-5.0/tomcat/webapps"
+    - name: "com.redhat.dev-mode"
+      value: "DEBUG:true"
+      description: "Environment variable used to enable development mode (debugging).  A value of true will enable development mode."
+    - name: "com.redhat.dev-mode.port"
+      value: "JPDA_ADDRESS:8000"
+      description: "Environment variable used to specify the debug port.  If not set, the default Tomcat debug port will be used (8000).  Only applicable when development mode is enabled."
+envs:
+    - name: "JBOSS_PRODUCT"
+      value: "webserver"
+    - name: "JBOSS_WEBSERVER_VERSION"
+      value: "5.0.0"
+    - name: "PRODUCT_VERSION"
+      value: "5.0.0"
+    - name: "TOMCAT_VERSION"
+      value: "9.0.7"
+    - name: "JWS_HOME"
+      value: "/opt/jws-5.0/tomcat"
+    - name: "CATALINA_OPTS"
+      value: "-Djava.security.egd=file:/dev/./urandom"
+    - name: "JPDA_ADDRESS"
+      value: "8000"
+      description: "Specify the port to use for debugging. If not set, the default Tomcat debug port will be used (8000).  Only applicable when development mode is enabled."
+    - name: DEBUG
+      example: false
+      description: "Specify true to enable development mode (debugging)."
+ports:
+    - value: 8080
+    - value: 8000
+      expose: false
+modules:
+      repositories:
+          - path: modules
+      install:
+          - name: jws-unpack-tomcat9
+          - name: jws-chown
+          - name: jws-debugging
+          - name: jws-disable-ajp
+artifacts:
+    - path: jws-application-server-5.0.0.RHEL_CR6.zip
+      description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=59541&product=webserver&version=5.0.0&downloadType=distributions"
+      md5: 25f07dec1491ccdf365253406fce07ac
+    - path: jws-application-server-5.0.0.RHEL_CR6-RHEL7-x86_64.zip
+      description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=59551&product=webserver&version=5.0.0&downloadType=distributions"
+      md5: e86b7f915043959ed0b26d7107a5c976
+run:
+      user: 185
+      cmd:
+          - "/opt/jws-5.0/tomcat/bin/catalina.sh"
+          - "run"
+osbs:
+      repository:
+            name: containers/jboss-webserver-5
+            branch: jb-webserver-5.0-tomcat-9-rhel-7

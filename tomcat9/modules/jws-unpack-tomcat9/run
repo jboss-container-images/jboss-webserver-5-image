@@ -1,0 +1,21 @@
+#!/bin/bash
+# Unpack the JWS distribution, possibly patch it, move components into place,
+# then delete the rest
+set -e
+
+ADDED_DIR=/tmp/artifacts
+DISTRIBUTION_ZIPS=$ADDED_DIR/jws-application-server-5.0.?.RHEL*zip
+
+mkdir -p -m0755 $JWS_HOME
+
+# unzip distribution and apply any patches
+for zip in $DISTRIBUTION_ZIPS; do
+  unzip -o "$zip"
+done
+
+# move the relevant components into place
+mv jws-5.0/tomcat/* $JWS_HOME
+mv jws-5.0/jbcs* $JWS_HOME/../
+
+# tidy up
+rm -rf jws-5.0
