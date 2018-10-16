@@ -2,7 +2,7 @@ schema_version: 1
 
 name: "jboss-webserver-5/webserver50-tomcat9"
 description: "Red Hat JBoss Web Server 5.0 Tomcat 9 container image"
-version: "5.0.0"
+version: "5.0.1"
 from: "jboss/openjdk18-rhel7:1.1"
 labels:
     - name: "com.redhat.component"
@@ -10,9 +10,9 @@ labels:
     - name: "org.jboss.product"
       value: "webserver-tomcat9"
     - name: "org.jboss.product.version"
-      value: "5.0.0"
+      value: "5.0.1"
     - name: "org.jboss.product.webserver-tomcat9.version"
-      value: "5.0.0"
+      value: "5.0.1"
     - name: "org.jboss.deployments-dir"
       value: "/opt/jws-5.0/tomcat/webapps"
     - name: "com.redhat.deployments-dir"
@@ -29,9 +29,9 @@ envs:
     - name: "JBOSS_PRODUCT"
       value: "webserver"
     - name: "JBOSS_WEBSERVER_VERSION"
-      value: "5.0.0"
+      value: "5.0.1"
     - name: "PRODUCT_VERSION"
-      value: "5.0.0"
+      value: "5.0.1"
     - name: "TOMCAT_VERSION"
       value: "9.0.7"
     - name: "JWS_HOME"
@@ -57,12 +57,15 @@ modules:
           - name: jws-debugging
           - name: jws-disable-ajp
 artifacts:
-    - path: jws-application-server-5.0.0.RHEL_CR6.zip
+    - path: jws-5.0.0-application-server.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=59541&product=webserver&version=5.0.0&downloadType=distributions"
       md5: 25f07dec1491ccdf365253406fce07ac
-    - path: jws-application-server-5.0.0.RHEL_CR6-RHEL7-x86_64.zip
+    - path: jws-5.0.0-application-server-RHEL7-x86_64.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=59551&product=webserver&version=5.0.0&downloadType=distributions"
       md5: e86b7f915043959ed0b26d7107a5c976
+    - path: jws-5.0.1-application-server.zip
+      description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=61911&product=webserver&version=5.0&downloadType=securityPatches"
+      md5: 3c75099bf2089c3730926d06c8f7dc41
 run:
       user: 185
       cmd:

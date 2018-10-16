@@ -4,7 +4,7 @@
 set -e
 
 ADDED_DIR=/tmp/artifacts
-DISTRIBUTION_ZIPS=$ADDED_DIR/jws-application-server-5.0.?.RHEL*zip
+DISTRIBUTION_ZIPS=$ADDED_DIR/jws-5.0.?-application-server*.zip
 
 mkdir -p -m0755 $JWS_HOME
 
