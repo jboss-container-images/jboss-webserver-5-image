@@ -4,18 +4,20 @@
 set -e
 
 ADDED_DIR=/tmp/artifacts
-DISTRIBUTION_ZIPS=$ADDED_DIR/jws-5.0.?-application-server*.zip
+GENERAL_ZIPS=$ADDED_DIR/jws-5.0.?-application-server.zip
+PLATFORM_ZIPS=$ADDED_DIR/jws-5.0.?-application-server-RHEL*
 
 mkdir -p -m0755 $JWS_HOME
 
 # unzip distribution and apply any patches
-for zip in $DISTRIBUTION_ZIPS; do
-  unzip -o "$zip"
+for zip in $GENERAL_ZIPS; do
+  unzip -o "$zip" -d /opt
 done
 
-# move the relevant components into place
-mv jws-5.0/tomcat/* $JWS_HOME
-mv jws-5.0/jbcs* $JWS_HOME/../
+# unzip platform specific zips and apply patches
+for zip in $PLATFORM_ZIPS; do
+  unzip -o "$zip" -d /opt
+done
 
 # tidy up
-rm -rf jws-5.0
+rm -rf $ADDED_DIR/jws-5.0.*
