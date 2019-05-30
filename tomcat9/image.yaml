@@ -1,12 +1,12 @@
 schema_version: 1
 
-name: "jboss-webserver-5/webserver50-tomcat9"
+name: "jboss-webserver-5/webserver50-openjdk11-tomcat9"
 description: "Red Hat JBoss Web Server 5.0 Tomcat 9 container image"
 version: "5.0.2"
 from: "rhel7:7-released"
 labels:
     - name: "com.redhat.component"
-      value: "jboss-webserver-5-webserver50-tomcat9-container"
+      value: "jboss-webserver-5-webserver50-openjdk11-tomcat9-container"
     - name: "org.jboss.product"
       value: "webserver-tomcat9"
     - name: "org.jboss.product.version"
@@ -57,7 +57,7 @@ modules:
           - path: modules
       install:
           - name: jboss.container.openjdk.jdk
-            version: "8"
+            version: "11"
           - name: jws-unpack-tomcat9
           - name: jws-chown
           - name: jws-debugging
@@ -83,4 +83,4 @@ run:
 osbs:
       repository:
             name: containers/jboss-webserver-5
-            branch: jb-webserver-5.0-tomcat-9-rhel-7
+            branch: private-szappis-jdk11-tomcat9-rhel7
