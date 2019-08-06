@@ -33,7 +33,7 @@ envs:
     - name: "PRODUCT_VERSION"
       value: "5.2.0"
     - name: "TOMCAT_VERSION"
-      value: "9.0.7"
+      value: "9.0.21"
     - name: "JWS_HOME"
       value: "/opt/jws-5.2/tomcat"
     - name: "CATALINA_OPTS"
