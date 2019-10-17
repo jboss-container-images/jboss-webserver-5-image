@@ -65,10 +65,10 @@ modules:
 artifacts:
     - name: jws-5.2.0-application-server.zip
       description: "Artifact is available on Customer Portal:"
-      md5: b8aac5e91be7a2bc2a9557a98c0c0f91
+      md5: ad814e79bfd11974b64aa9bb6d48b73f
     - name: jws-5.2.0-application-server-RHEL7-x86_64.zip
       description: "Artifact is available on Customer Portal:"
-      md5: 49f8224628b5e7fc4742e1a907f7651c
+      md5: 135c503570aec08caa2722fe78ef37ef
 run:
       user: 185
       cmd:
