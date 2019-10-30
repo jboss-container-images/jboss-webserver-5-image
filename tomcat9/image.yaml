@@ -2,7 +2,7 @@ schema_version: 1
 
 name: "jboss-webserver-5/webserver50-tomcat9"
 description: "Red Hat JBoss Web Server 5.0 Tomcat 9 container image"
-version: "5.0.2"
+version: "5.0.3"
 from: "rhel7:7-released"
 labels:
     - name: "com.redhat.component"
@@ -10,9 +10,9 @@ labels:
     - name: "org.jboss.product"
       value: "webserver-tomcat9"
     - name: "org.jboss.product.version"
-      value: "5.0.2"
+      value: "5.0.3"
     - name: "org.jboss.product.webserver-tomcat9.version"
-      value: "5.0.2"
+      value: "5.0.3"
     - name: "org.jboss.deployments-dir"
       value: "/opt/jws-5.0/tomcat/webapps"
     - name: "com.redhat.deployments-dir"
@@ -29,9 +29,9 @@ envs:
     - name: "JBOSS_PRODUCT"
       value: "webserver"
     - name: "JBOSS_WEBSERVER_VERSION"
-      value: "5.0.2"
+      value: "5.0.3"
     - name: "PRODUCT_VERSION"
-      value: "5.0.2"
+      value: "5.0.3"
     - name: "TOMCAT_VERSION"
       value: "9.0.7"
     - name: "JWS_HOME"
@@ -69,10 +69,10 @@ artifacts:
     - name: jws-5.0.0-application-server-RHEL7-x86_64.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=59551&product=webserver&version=5.0.0&downloadType=distributions"
       md5: e86b7f915043959ed0b26d7107a5c976
-    - name: jws-5.0.2-application-server.zip
+    - name: jws-5.0.3-application-server.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=66051&product=webserver&version=5.0&downloadType=securityPatches"
-      md5: 080d4b8ef197f60cac593a0eed188149
-    - name: jws-5.0.2-application-server-RHEL7-x86_64.zip
+      md5: 1d06aa735fa859ee0970f8a6d3f863d0
+    - name: jws-5.0.3-application-server-RHEL7-x86_64.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=66101&product=webserver&version=5.0&downloadType=securityPatches"
       md5: 71d188c68de9b932098f667258030557
 run:
