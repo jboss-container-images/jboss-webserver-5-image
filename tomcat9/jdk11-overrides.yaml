@@ -1,0 +1,12 @@
+name: "jboss-webserver-5/webserver52-openjdk11-tomcat9"
+labels:
+    - name: "com.redhat.component"
+      value: "jboss-webserver-5-webserver52-openjdk11-tomcat9-container"
+modules:
+      install:
+          - name: jboss.container.openjdk.jdk
+            version: "11"
+osbs:
+      repository:
+            name: containers/jboss-webserver-5
+            branch: jb-webserver-5.2-openjdk-11-tomcat-9-dev-rhel7
