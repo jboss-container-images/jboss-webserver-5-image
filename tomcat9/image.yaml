@@ -69,6 +69,8 @@ artifacts:
     - name: jws-5.2.0-application-server-RHEL7-x86_64.zip
       description: "Artifact is available on Customer Portal:"
       md5: 135c503570aec08caa2722fe78ef37ef
+    - name: jws-5.2.0-application-server-RHEL7-ppc64le.zip
+      md5: 2cdf70251a153edfcd309f2fbf5e887a
 run:
       user: 185
       cmd:
