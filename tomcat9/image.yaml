@@ -71,6 +71,8 @@ artifacts:
       md5: 135c503570aec08caa2722fe78ef37ef
     - name: jws-5.2.0-application-server-RHEL7-ppc64le.zip
       md5: 2cdf70251a153edfcd309f2fbf5e887a
+    - name: jws-5.2.0-application-server-RHEL7-s390x.zip
+      md5: 9b1d794914be82a6124c7a18534ca256
 run:
       user: 185
       cmd:
