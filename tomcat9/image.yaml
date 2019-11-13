@@ -64,6 +64,12 @@ modules:
           - name: jws-debugging
           - name: jws-disable-ajp
 packages:
+      repositories:
+          - name: scl
+            rpm: ~
+          - name: openj9
+            id: openj9
+      manager: dnf
       install:
           - apr-util
 artifacts:
