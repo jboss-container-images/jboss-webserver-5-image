@@ -63,6 +63,9 @@ modules:
           - name: jws-chown
           - name: jws-debugging
           - name: jws-disable-ajp
+packages:
+      install:
+          - apr-util
 artifacts:
     - name: jws-5.2.0-application-server.zip
       description: "Artifact is available on Customer Portal:"
