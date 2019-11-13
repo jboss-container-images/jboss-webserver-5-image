@@ -1,12 +1,12 @@
 schema_version: 1
 
-name: "jboss-webserver-5/webserver52-openj9-jdk11-tomcat9"
+name: "jboss-webserver-5/webserver52-openj9-jdk11-rhel8-tomcat9"
 description: "Red Hat JBoss Web Server 5.2 Tomcat 9 container image"
 version: "5.2.0"
-from: "rhel7:7-released"
+from: "ubi8:8-released"
 labels:
     - name: "com.redhat.component"
-      value: "jboss-webserver-5-webserver52-openj9-jdk11-tomcat9-container"
+      value: "jboss-webserver-5-webserver52-openj9-jdk11-rhel8-tomcat9-container"
     - name: "org.jboss.product"
       value: "webserver-tomcat9"
     - name: "org.jboss.product.version"
@@ -67,11 +67,11 @@ artifacts:
     - name: jws-5.2.0-application-server.zip
       description: "Artifact is available on Customer Portal:"
       md5: ad814e79bfd11974b64aa9bb6d48b73f
-    - name: jws-5.2.0-application-server-RHEL7-x86_64.zip
+    - name: jws-5.2.0-application-server-RHEL8-x86_64.zip
       description: "Artifact is available on Customer Portal:"
-      md5: 135c503570aec08caa2722fe78ef37ef
-    - name: jws-5.2.0-application-server-RHEL7-s390x.zip
-      md5: 9b1d794914be82a6124c7a18534ca256
+      md5: 6180e677636a14400a764899028a10f5
+    - name: jws-5.2.0-application-server-RHEL8-s390x.zip
+      md5: b655590c3da90c4130b27805b6be914f
 run:
       user: 185
       cmd:
@@ -80,4 +80,4 @@ run:
 osbs:
       repository:
             name: containers/jboss-webserver-5
-            branch: private-szappis-openj9-jdk11-rhel7
+            branch: private-szappis-openj9-jdk11-rhel8
