@@ -52,29 +52,24 @@ modules:
       repositories:
           - name: cct_module
             git:
-                url: https://github.com/jmtd/cct_module.git
-                ref: openj9
+                url: https://github.com/jboss-openshift/cct_module.git
+                ref: master
           - path: modules
       install:
           - name: jboss.container.java.rm-openjdk
           - name: jboss.container.openjdk.jdk
             version: "openj9-11"
           - name: jws-unpack-tomcat9
+            version: "1.0"
           - name: jws-chown
+            version: "1.0"
           - name: jws-debugging
+            version: "1.0"
           - name: jws-disable-ajp
+            version: "1.0"
 packages:
       install:
           - apr-util
-artifacts:
-    - name: jws-5.2.0-application-server.zip
-      description: "Artifact is available on Customer Portal:"
-      md5: ad814e79bfd11974b64aa9bb6d48b73f
-    - name: jws-5.2.0-application-server-RHEL8-x86_64.zip
-      description: "Artifact is available on Customer Portal:"
-      md5: 6180e677636a14400a764899028a10f5
-    - name: jws-5.2.0-application-server-RHEL8-s390x.zip
-      md5: b655590c3da90c4130b27805b6be914f
 run:
       user: 185
       cmd:
