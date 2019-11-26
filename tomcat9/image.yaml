@@ -1,12 +1,12 @@
 schema_version: 1
 
-name: "jboss-webserver-5/webserver52-openj9-jdk11-rhel8-tomcat9"
+name: "jboss-webserver-5/webserver52-openj9-tomcat9-rhel8"
 description: "Red Hat JBoss Web Server 5.2 Tomcat 9 container image"
 version: "5.2.0"
 from: "ubi8:8-released"
 labels:
     - name: "com.redhat.component"
-      value: "jboss-webserver-5-webserver52-openj9-jdk11-rhel8-tomcat9-container"
+      value: "jboss-webserver-5-webserver52-openj9-tomcat9-rhel8-container"
     - name: "org.jboss.product"
       value: "webserver-tomcat9"
     - name: "org.jboss.product.version"
