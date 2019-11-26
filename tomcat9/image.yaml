@@ -77,5 +77,5 @@ run:
           - "run"
 osbs:
       repository:
-            name: containers/jboss-webserver-5
-            branch: private-szappis-openj9-jdk11-rhel8
+            name: containers/jboss-webserver-openj9-tomcat9
+            branch: jws-5.2-rhel-8
