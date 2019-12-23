@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 set -e
 JWS_HOME=/opt/jws-5.2/tomcat
 # Enhance catalina.sh to make remote JAVA debugging possible by specifying

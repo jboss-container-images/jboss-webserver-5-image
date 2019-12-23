@@ -59,20 +59,13 @@ modules:
           - name: jboss.container.openjdk.jdk
             version: "8"
           - name: jws-unpack-tomcat9
+            version: "1.0"
           - name: jws-chown
+            version: "1.0"
           - name: jws-debugging
+            version: "1.0"
           - name: jws-disable-ajp
-artifacts:
-    - name: jws-5.2.0-application-server.zip
-      description: "Artifact is available on Customer Portal:"
-      md5: ad814e79bfd11974b64aa9bb6d48b73f
-    - name: jws-5.2.0-application-server-RHEL7-x86_64.zip
-      description: "Artifact is available on Customer Portal:"
-      md5: 135c503570aec08caa2722fe78ef37ef
-    - name: jws-5.2.0-application-server-RHEL7-ppc64le.zip
-      md5: 2cdf70251a153edfcd309f2fbf5e887a
-    - name: jws-5.2.0-application-server-RHEL7-s390x.zip
-      md5: 9b1d794914be82a6124c7a18534ca256
+            version: "1.0"
 run:
       user: 185
       cmd:
