@@ -1,6 +1,6 @@
-# Red Hat JBoss Web Server 5.0 Tomcat 9 container image
+# Red Hat JBoss Web Server 5.2 Tomcat 9 container image
 
-NOTE: Extends link:https://github.com/jboss-container-images/jboss-openjdk-image[JBoss OpenJDK image]
+NOTE: Extends link:https://access.redhat.com/containers/#/registry.access.redhat.com/rhel7[RHEL7 base image]
 
 # License
 
