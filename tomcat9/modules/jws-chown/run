@@ -2,7 +2,7 @@
 # Set the ownership of the JWS software to the JWS user.
 set -e
 
-for dir in /opt/jws-5.2 $HOME; do
+for dir in /opt/jws-5.3 $HOME; do
   chown -R jboss:root $dir
   chmod -R g+rwX $dir
 done

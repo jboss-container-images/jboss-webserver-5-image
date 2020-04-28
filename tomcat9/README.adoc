@@ -1,4 +1,4 @@
-# Red Hat JBoss Web Server 5.2 Tomcat 9 container image
+# Red Hat JBoss Web Server 5.3 Tomcat 9 container image
 
 # License
 
