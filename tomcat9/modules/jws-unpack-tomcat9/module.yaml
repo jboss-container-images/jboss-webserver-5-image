@@ -3,11 +3,11 @@ schema_version: 1
 name: jws-unpack-tomcat9
 version: "1.0"
 artifacts:
-    - name: jws-5.2.0.PostGA-application-server.zip
-      target: jws-5.2.0-application-server.zip
-      md5: 9876c51ee8cc1ac918f56ad00f5947bf
-    - name: jws-5.2.0.PostGA-application-server-RHEL7-s390x.zip
-      target: jws-5.2.0-application-server-RHEL7-s390x.zip
-      md5: 0115af99c62a26d77886507adaa8d01b
+    - name: jws-5.3.0.CR1-application-server.zip
+      target: jws-5.3.0-application-server.zip
+      md5: 80d58c58aaf9ffb9a6704a02b2974ab0
+    - name: jws-5.3.0.CR1-application-server-RHEL7-s390x.zip
+      target: jws-5.3.0-application-server-RHEL7-s390x.zip
+      md5: 1268a557b58209b40b97688524c3e8c4
 execute:
     - script: run
