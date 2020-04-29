@@ -1,4 +1,4 @@
-# Red Hat JBoss Web Server 5.2 container image
+# Red Hat JBoss Web Server 5.3 container image
 
 Components are available in the tomcat9 directory.
 
