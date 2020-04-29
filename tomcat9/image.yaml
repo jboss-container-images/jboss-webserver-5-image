@@ -1,24 +1,24 @@
 schema_version: 1
 
-name: "jboss-webserver-5/webserver52-openj9-tomcat9-rhel8"
-description: "Red Hat JBoss Web Server 5.2 Tomcat 9 container image"
-version: "5.2.0"
+name: "jboss-webserver-5/webserver53-openj9-tomcat9-rhel8"
+description: "Red Hat JBoss Web Server 5.3 Tomcat 9 container image"
+version: "5.3.0"
 from: "ubi8:8-released"
 labels:
     - name: "com.redhat.component"
-      value: "jboss-webserver-5-webserver52-openj9-tomcat9-rhel8-container"
+      value: "jboss-webserver-5-webserver53-openj9-tomcat9-rhel8-container"
     - name: "org.jboss.product"
       value: "webserver-tomcat9"
     - name: "org.jboss.product.version"
-      value: "5.2.0"
+      value: "5.3.0"
     - name: "org.jboss.product.webserver-tomcat9.version"
-      value: "5.2.0"
+      value: "5.3.0"
     - name: "org.jboss.deployments-dir"
-      value: "/opt/jws-5.2/tomcat/webapps"
+      value: "/opt/jws-5.3/tomcat/webapps"
     - name: "com.redhat.deployments-dir"
-      value: "/opt/jws-5.2/tomcat/webapps"
+      value: "/opt/jws-5.3/tomcat/webapps"
     - name: "com.redhat.deployments-dir"
-      value: "/opt/jws-5.2/tomcat/webapps"
+      value: "/opt/jws-5.3/tomcat/webapps"
     - name: "com.redhat.dev-mode"
       value: "DEBUG:true"
       description: "Environment variable used to enable development mode (debugging).  A value of true will enable development mode."
@@ -29,13 +29,13 @@ envs:
     - name: "JBOSS_PRODUCT"
       value: "webserver"
     - name: "JBOSS_WEBSERVER_VERSION"
-      value: "5.2.0"
+      value: "5.3.0"
     - name: "PRODUCT_VERSION"
-      value: "5.2.0"
+      value: "5.3.0"
     - name: "TOMCAT_VERSION"
-      value: "9.0.21"
+      value: "9.0.30"
     - name: "JWS_HOME"
-      value: "/opt/jws-5.2/tomcat"
+      value: "/opt/jws-5.3/tomcat"
     - name: "CATALINA_OPTS"
       value: "-Djava.security.egd=file:/dev/./urandom"
     - name: "JPDA_ADDRESS"
@@ -73,9 +73,9 @@ packages:
 run:
       user: 185
       cmd:
-          - "/opt/jws-5.2/tomcat/bin/catalina.sh"
+          - "/opt/jws-5.3/tomcat/bin/catalina.sh"
           - "run"
 osbs:
       repository:
             name: containers/jboss-webserver-openj9-tomcat9
-            branch: jws-5.2-rhel-8
+            branch: jws-5.3-rhel-8
