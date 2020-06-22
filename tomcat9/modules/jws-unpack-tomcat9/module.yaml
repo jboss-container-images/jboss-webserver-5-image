@@ -3,6 +3,12 @@ schema_version: 1
 name: jws-unpack-tomcat9
 version: "1.0"
 artifacts:
+    - name: jws-5.3.0.CR1-application-server.zip
+      target: jws-5.3.0-application-server.zip
+      md5: 80d58c58aaf9ffb9a6704a02b2974ab0
+    - name: jws-5.3.0.CR1-application-server-RHEL7-s390x.zip
+      target: jws-5.3.0-application-server-RHEL7-s390x.zip
+      md5: 1268a557b58209b40b97688524c3e8c4
     - name: jws-5.3.1.CR1-application-server.zip
       target: jws-5.3.1-application-server.zip
       md5: 88322b509f511f2c1c90f1b5d1c8f848
