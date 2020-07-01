@@ -3,23 +3,13 @@ schema_version: 1
 name: jws-unpack-tomcat9
 version: "1.0"
 artifacts:
-    - name: jws-5.3.0.CR1-application-server.zip
-      target: jws-5.3.0-application-server.zip
+    - name: jws-5.4.0.DR1-application-server.zip
+      target: jws-5.4.0-application-server.zip
       description: "Artifact is available on Customer Portal:"
-      md5: 80d58c58aaf9ffb9a6704a02b2974ab0
-    - name: jws-5.3.0.CR1-application-server-RHEL7-x86_64.zip
-      target: jws-5.3.0-application-server-RHEL7-x86_64.zip
+      md5: 038f08e95b677bebdbc3840dcdcf9a6f
+    - name: jws-5.4.0.DR1-application-server-RHEL7-x86_64.zip
+      target: jws-5.4.0-application-server-RHEL7-x86_64.zip
       description: "Artifact is available on Customer Portal:"
-      md5: 996ed471963cb9a54cec3fa026109002
-    - name: jws-5.3.1.CR1-application-server.zip
-      target: jws-5.3.1-application-server.zip
-      md5: 88322b509f511f2c1c90f1b5d1c8f848
-    - name: jws-5.3.1.CR1-application-server-RHEL7-x86_64.zip
-      target: jws-5.3.1-application-server-RHEL7-x86_64.zip
-      md5: 7d19ae03fa4dadaec9470a7c100f3757
-#    - name: jws-5.2.0-application-server-RHEL7-ppc64le.zip
-#      md5: 2cdf70251a153edfcd309f2fbf5e887a
-#    - name: jws-5.2.0-application-server-RHEL7-s390x.zip
-#      md5: 9b1d794914be82a6124c7a18534ca256
+      md5: df61661c8010c9a40f9c22be23d7a93a
 execute:
     - script: run
