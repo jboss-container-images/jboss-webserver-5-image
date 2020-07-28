@@ -9,11 +9,17 @@ artifacts:
     - name: jws-5.3.0.CR1-application-server-RHEL7-s390x.zip
       target: jws-5.3.0-application-server-RHEL7-s390x.zip
       md5: 1268a557b58209b40b97688524c3e8c4
-    - name: jws-5.3.1.CR1-application-server.zip
-      target: jws-5.3.1-application-server.zip
-      md5: 88322b509f511f2c1c90f1b5d1c8f848
-    - name: jws-5.3.1.CR1-application-server-RHEL7-s390x.zip
-      target: jws-5.3.1-application-server-RHEL7-s390x.zip
-      md5: 45c6b00cd956ea5accc4a06b21b2fbdd
+    - name: jws-5.3.0.CR1-application-server-RHEL7-ppc64le.zip
+      target: jws-5.3.0-application-server-RHEL7-ppc64le.zip
+      md5: e4ab806f881822ed61e55ae171ed24d2
+    - name: jws-5.3.2.CR1-application-server.zip
+      target: jws-5.3.2-application-server.zip
+      md5: aa01897553b30129d9e6e4a0c09e5e4b
+    - name: jws-5.3.2.CR1-application-server-RHEL7-s390x.zip
+      target: jws-5.3.2-application-server-RHEL7-s390x.zip
+      md5: 8efd19a32cd062c43933f7f5c0895f65
+    - name: jws-5.3.2.CR1-application-server-RHEL7-ppc64le.zip
+      target: jws-5.3.2-application-server-RHEL7-ppc64le.zip
+      md5: 637afed8c0313f85143692fee190126c
 execute:
     - script: run
