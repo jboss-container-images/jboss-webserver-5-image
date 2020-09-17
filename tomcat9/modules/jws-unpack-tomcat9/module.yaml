@@ -3,13 +3,13 @@ schema_version: 1
 name: jws-unpack-tomcat9
 version: "1.0"
 artifacts:
-    - name: jws-5.4.0.ER1-application-server.zip
+    - name: jws-5.4.0.CR2-application-server.zip
       target: jws-5.4.0-application-server.zip
       description: "Artifact is available on Customer Portal:"
-      md5: 2b763d50231498a838fb74415f570965
-    - name: jws-5.4.0.ER1-application-server-RHEL7-x86_64.zip
+      md5: ac7322adfcd7f76a4d9b9dab63af1360
+    - name: jws-5.4.0.CR2-application-server-RHEL7-x86_64.zip
       target: jws-5.4.0-application-server-RHEL7-x86_64.zip
       description: "Artifact is available on Customer Portal:"
-      md5: bd0291fe458ae0a14884fe6bae40a58b
+      md5: fbbda2ec78b7ff82b401fabdd7ff7145
 execute:
     - script: run
