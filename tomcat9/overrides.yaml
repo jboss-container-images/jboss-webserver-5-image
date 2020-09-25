@@ -5,4 +5,18 @@
 #            repository: http://s01.yyz.redhat.com/~sgehwolf/openj9/jdk11-openj9/java-11-openj9.repo
 ####### This section is for scratch builds out of private branch
 osbs:
-     koji_target: jws-5.3-openj9-rhel-8-containers-candidate
+  configuration:
+    container:
+      compose:
+        inherit: true
+        packages:
+        - java-11-openj9
+        - java-11-openj9-devel
+        - java-11-openj9-headless
+        pulp_repos: true
+        signing_intent: release
+      platforms:
+        only:
+        - s390x
+
+  koji_target: jws-5.4-openj9-rhel-8-containers-candidate
