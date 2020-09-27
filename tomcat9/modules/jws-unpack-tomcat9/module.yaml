@@ -3,23 +3,11 @@ schema_version: 1
 name: jws-unpack-tomcat9
 version: "1.0"
 artifacts:
-    - name: jws-5.3.0.CR1-application-server.zip
-      target: jws-5.3.0-application-server.zip
-      md5: 80d58c58aaf9ffb9a6704a02b2974ab0
-    - name: jws-5.3.0.CR1-application-server-RHEL8-s390x.zip
-      target: jws-5.3.0-application-server-RHEL8-s390x.zip
-      md5: 436ecf0a174878f9651e6ca8887c29af
-    - name: jws-5.3.0.CR1-application-server-RHEL8-ppc64le.zip
-      target: jws-5.3.0-application-server-RHEL8-ppc64le.zip
-      md5: eeaed0bf33eca9609b9726a3dd6ab2f6 
-    - name: jws-5.3.1.CR1-application-server.zip
-      target: jws-5.3.1-application-server.zip
-      md5: 88322b509f511f2c1c90f1b5d1c8f848
-    - name: jws-5.3.1.CR1-application-server-RHEL8-s390x.zip
-      target: jws-5.3.1-application-server-RHEL8-s390x.zip
-      md5: 25c6ba6d053fd0d7e03e6eaae5b80af5
-    - name: jws-5.3.1.CR1-application-server-RHEL8-ppc64le.zip
-      target: jws-5.3.1-application-server-RHEL8-ppc64le.zip
-      md5: 734d2656bfae238cf0aa06e89220a573
+    - name: jws-5.4.0.CR2-application-server.zip
+      target: jws-5.4.0-application-server.zip
+      md5: ac7322adfcd7f76a4d9b9dab63af1360
+    - name: jws-5.4.0.CR2-application-server-RHEL8-s390x.zip
+      target: jws-5.4.0-application-server-RHEL8-s390x.zip
+      md5: 6515662c63b3a9c23c2baad4b5b28fce
 execute:
     - script: run
