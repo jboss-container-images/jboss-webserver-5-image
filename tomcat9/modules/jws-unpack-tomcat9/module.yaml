@@ -9,5 +9,8 @@ artifacts:
     - name: jws-5.4.0.CR2-application-server-RHEL8-s390x.zip
       target: jws-5.4.0-application-server-RHEL8-s390x.zip
       md5: 6515662c63b3a9c23c2baad4b5b28fce
+    - name: jws-5.4.0.CR2-application-server-RHEL8-ppc64le.zip
+      target: jws-5.4.0-application-server-RHEL8-ppc64le.zip
+      md5: 8aff5ea3cc4e754767b1185db2ba93f1
 execute:
     - script: run

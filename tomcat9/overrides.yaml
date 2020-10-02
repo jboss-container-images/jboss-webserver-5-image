@@ -18,5 +18,6 @@ osbs:
       platforms:
         only:
         - s390x
+        - ppc64le
 
   koji_target: jws-5.4-openj9-rhel-8-containers-candidate
