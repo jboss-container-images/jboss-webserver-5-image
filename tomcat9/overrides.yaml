@@ -9,10 +9,6 @@ osbs:
     container:
       compose:
         inherit: true
-        packages:
-        - java-11-openj9
-        - java-11-openj9-devel
-        - java-11-openj9-headless
         pulp_repos: true
         signing_intent: release
       platforms:
