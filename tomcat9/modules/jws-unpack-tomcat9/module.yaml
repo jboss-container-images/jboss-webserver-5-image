@@ -15,15 +15,15 @@ artifacts:
       target: jws-5.4.0-application-server-RHEL8-ppc64le.zip
       description: "Artifact is available on Customer Portal:"
       md5: c559fe34c54c0e80b591f7c973aeb256    
-    - name: jws-5.4.1.CR1-application-server.zip
+    - name: jws-5.4.1.CR1.1-application-server.zip
       target: jws-5.4.1-application-server.zip
       description: "Artifact is available on Customer Portal:"
       md5: ba1e153ddb72c9d79c2b269e1bfca50e
-    - name: jws-5.4.1.CR1-application-server-RHEL8-s390x.zip
+    - name: jws-5.4.1.CR1.1-application-server-RHEL8-s390x.zip
       target: jws-5.4.1-application-server-RHEL8-s390x.zip
       description: "Artifact is available on Customer Portal:"
       md5: 5ed7de8b2b84a32abcfeb6ee3b2a05dd
-    - name: jws-5.4.1.CR1-application-server-RHEL8-ppc64le.zip
+    - name: jws-5.4.1.CR1.1-application-server-RHEL8-ppc64le.zip
       target: jws-5.4.1-application-server-RHEL8-ppc64le.zip
       description: "Artifact is available on Customer Portal:"
       md5: c941e7e7ffd969d597c125bad0a9078b
