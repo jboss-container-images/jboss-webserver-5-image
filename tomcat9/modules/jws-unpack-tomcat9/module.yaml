@@ -18,7 +18,7 @@ artifacts:
     - name: jws-5.4.1.CR1.1-application-server.zip
       target: jws-5.4.1-application-server.zip
       description: "Artifact is available on Customer Portal:"
-      md5: ba1e153ddb72c9d79c2b269e1bfca50e
+      md5: 7b924a5b6804df47de1c62bb068766e1
     - name: jws-5.4.1.CR1.1-application-server-RHEL8-s390x.zip
       target: jws-5.4.1-application-server-RHEL8-s390x.zip
       description: "Artifact is available on Customer Portal:"
