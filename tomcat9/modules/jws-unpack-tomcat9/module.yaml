@@ -11,11 +11,11 @@ artifacts:
       target: jws-5.4.0-application-server-RHEL8-x86_64.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90361&product=webserver&version=&downloadType=distributions"
       md5: 6626fa4a05fafc4788ca7138e379ac3f
-    - name: jws-5.4.1.CR1-application-server.zip
+    - name: jws-5.4.1.CR1.1-application-server.zip
       target: jws-5.4.1-application-server.zip
       description: "Artifact is available on Customer Portal:"
-      md5: ba1e153ddb72c9d79c2b269e1bfca50e
-    - name: jws-5.4.1.CR1-application-server-RHEL8-x86_64.zip
+      md5: 7b924a5b6804df47de1c62bb068766e1
+    - name: jws-5.4.1.CR1.1-application-server-RHEL8-x86_64.zip
       target: jws-5.4.1-application-server-RHEL8-x86_64.zip
       description: "Artifact is available on Customer Portal:"
       md5: db39cbd98be366ed02af9e129bdd74be
