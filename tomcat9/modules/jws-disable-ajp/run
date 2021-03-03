@@ -1,5 +1,5 @@
 #!/bin/sh
 set -e
-JWS_HOME=/opt/jws-5.4/tomcat
+JWS_HOME=/opt/jws-5.5/tomcat
 # disable AJP
 sed -i 's|\(<Connector.*AJP.*>\)|<!--\1-->|' "$JWS_HOME/conf/server.xml"

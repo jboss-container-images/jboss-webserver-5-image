@@ -3,21 +3,13 @@ schema_version: 1
 name: jws-unpack-tomcat9
 version: "1.0"
 artifacts:
-    - name: jws-5.4.0.CR3-application-server.zip
-      target: jws-5.4.0-application-server.zip
+    - name: jws-5.5.0.ER1-application-server.zip
+      target: jws-5.5.0-application-server.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90341&product=webserver&version=&downloadType=distributions"
-      md5: a2341e836403da37d72688be83e657cc
-    - name: jws-5.4.0.CR3-application-server-RHEL8-x86_64.zip
-      target: jws-5.4.0-application-server-RHEL8-x86_64.zip
+      md5: 6ed1e70e8ed23fb2c6aa292e1ab3b20f
+    - name: jws-5.5.0.ER1-application-server-RHEL8-x86_64.zip
+      target: jws-5.5.0-application-server-RHEL8-x86_64.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90361&product=webserver&version=&downloadType=distributions"
-      md5: 6626fa4a05fafc4788ca7138e379ac3f
-    - name: jws-5.4.1.CR1.1-application-server.zip
-      target: jws-5.4.1-application-server.zip
-      description: "Artifact is available on Customer Portal:"
-      md5: 7b924a5b6804df47de1c62bb068766e1
-    - name: jws-5.4.1.CR1.1-application-server-RHEL8-x86_64.zip
-      target: jws-5.4.1-application-server-RHEL8-x86_64.zip
-      description: "Artifact is available on Customer Portal:"
-      md5: db39cbd98be366ed02af9e129bdd74be
+      md5: 1bb9e53a36547fa3da365c48cef1bf1c
 execute:
     - script: run
