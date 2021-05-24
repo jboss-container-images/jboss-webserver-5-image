@@ -3,13 +3,13 @@ schema_version: 1
 name: jws-unpack-tomcat9
 version: "1.0"
 artifacts:
-    - name: jws-5.5.0.ER2-application-server.zip
+    - name: jws-5.5.0.CR1-application-server.zip
       target: jws-5.5.0-application-server.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90341&product=webserver&version=&downloadType=distributions"
-      md5: 21c4f6752a1466984c61f5e302b39dd4
-    - name: jws-5.5.0.ER2-application-server-RHEL8-x86_64.zip
+      md5: bcefafd798a033e81e1bc6c157815368
+    - name: jws-5.5.0.CR1-application-server-RHEL8-x86_64.zip
       target: jws-5.5.0-application-server-RHEL8-x86_64.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90361&product=webserver&version=&downloadType=distributions"
-      md5: e4da118b00b2325de6a11de61d1fdd2f
+      md5: e5a47d46c4c59fb64e13790842687305
 execute:
     - script: run
