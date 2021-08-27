@@ -1,4 +1,4 @@
-name: "jboss-webserver-5/webserver55-openjdk11-tomcat9-rhel8"
+name: "jboss-webserver-5/webserver56-openjdk11-tomcat9-rhel8"
 labels:
     - name: "com.redhat.component"
       value: "jboss-webserver-5-webserver56-openjdk11-tomcat9-rhel8-container"
