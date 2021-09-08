@@ -18,3 +18,11 @@ osbs:
                   only:
                       - s390x
                       - ppc64le
+              compose:
+                  pulp_repos: true
+                  packages:
+                    - java-11-openj9
+                    - java-11-openj9-headless
+                    - java-11-openj9-devel
+                  signing_intent: release
+                  inherit: true 
