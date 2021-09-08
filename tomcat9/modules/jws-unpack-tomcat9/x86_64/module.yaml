@@ -1,7 +1,7 @@
 schema_version: 1
 
 name: jws-unpack-tomcat9
-version: "1.0"
+version: "x86_64"
 artifacts:
     - name: jws-5.6.0.ER2-application-server.zip
       target: jws-5.6.0-application-server.zip

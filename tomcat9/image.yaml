@@ -67,10 +67,7 @@ modules:
           - name: jws-disable-ajp
             version: "1.0"
 packages:
-      content_sets:
-        x86_64:
-          - rhel-8-for-x86_64-baseos-rpms
-          - rhel-8-for-x86_64-appstream-rpms
+      content_sets_file: content_sets_rhel8.yml
       install:
           - apr-util
 
