@@ -6,17 +6,17 @@ artifacts:
     - name: jws-5.6.0.ER2-application-server.zip
       target: jws-5.6.0-application-server.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90341&product=webserver&version=&downloadType=distributions"
-      url: http://download.eng.bos.redhat.com/devel/candidates/jboss/webserver/JWS-5.6.0.CR2/jws-5.6.0.CR2-application-server.zip
+      url: http://download.eng.bos.redhat.com/devel/candidates/jboss/webserver/JWS-5.6.0.ER2/jws-5.6.0.ER2-application-server.zip
       md5: 45cfd210add897a87955a6f591e713f6
     - name: jws-5.6.0.ER2-application-server-RHEL8-s390x.zip
       target: jws-5.6.0-application-server-RHEL8-s390x.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90361&product=webserver&version=&downloadType=distributions"
-      url: http://download.eng.bos.redhat.com/devel/candidates/jboss/webserver/JWS-5.6.0.CR2/jws-5.6.0.CR2-application-server-RHEL8-s390x.zip
+      url: http://download.eng.bos.redhat.com/devel/candidates/jboss/webserver/JWS-5.6.0.ER2/jws-5.6.0.ER2-application-server-RHEL8-s390x.zip
       md5: cf03b637d226d79f6e04840949b8efe1
     - name: jws-5.6.0.ER2-application-server-RHEL8-ppc64le.zip
       target: jws-5.6.0-application-server-RHEL8-ppc64le.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90361&product=webserver&version=&downloadType=distributions"
-      url: http://download.eng.bos.redhat.com/devel/candidates/jboss/webserver/JWS-5.6.0.CR2/jws-5.6.0.CR2-application-server-RHEL8-ppc64le.zip
+      url: http://download.eng.bos.redhat.com/devel/candidates/jboss/webserver/JWS-5.6.0.ER2/jws-5.6.0.ER2-application-server-RHEL8-ppc64le.zip
       md5: 719a16ce103459efb979d9e5a82978b8
 execute:
     - script: run
