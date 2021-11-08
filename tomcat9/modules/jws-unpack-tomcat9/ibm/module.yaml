@@ -3,20 +3,20 @@ schema_version: 1
 name: jws-unpack-tomcat9
 version: "ibm"
 artifacts:
-    - name: jws-5.6.0.CR1-application-server.zip 
+    - name: jws-5.6.0.CR2-application-server.zip 
       target: jws-5.6.0-application-server.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90341&product=webserver&version=&downloadType=distributions"
-      url: http://download.eng.bos.redhat.com/devel/candidates/jboss/webserver/JWS-5.6.0.CR1/jws-5.6.0.CR1-application-server.zip
-      md5: 06325e81273dea14bbd737ba5450ae56
-    - name: jws-5.6.0.CR1-application-server-RHEL8-s390x.zip
+      url: http://download.eng.bos.redhat.com/devel/candidates/jboss/webserver/JWS-5.6.0.CR2/jws-5.6.0.CR2-application-server.zip
+      md5: 356e3c97008455deef2d010aab13abc9 
+    - name: jws-5.6.0.CR2-application-server-RHEL8-s390x.zip
       target: jws-5.6.0-application-server-RHEL8-s390x.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90361&product=webserver&version=&downloadType=distributions"
-      url: http://download.eng.bos.redhat.com/devel/candidates/jboss/webserver/JWS-5.6.0.CR1/jws-5.6.0.CR1-application-server-RHEL8-s390x.zip
-      md5: d1376e700ecdeb800f5bd26ff2c4f42a
-    - name: jws-5.6.0.CR1-application-server-RHEL8-ppc64le.zip
+      url: http://download.eng.bos.redhat.com/devel/candidates/jboss/webserver/JWS-5.6.0.CR2/jws-5.6.0.CR2-application-server-RHEL8-s390x.zip
+      md5: 7319ac937a3e0faf49b0e4012a284e19
+    - name: jws-5.6.0.CR2-application-server-RHEL8-ppc64le.zip
       target: jws-5.6.0-application-server-RHEL8-ppc64le.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90361&product=webserver&version=&downloadType=distributions"
-      url: http://download.eng.bos.redhat.com/devel/candidates/jboss/webserver/JWS-5.6.0.CR1/jws-5.6.0.CR1-application-server-RHEL8-ppc64le.zip
-      md5: a84d879461a8815c89991c562319edfb
+      url: http://download.eng.bos.redhat.com/devel/candidates/jboss/webserver/JWS-5.6.0.CR2/jws-5.6.0.CR2-application-server-RHEL8-ppc64le.zip
+      md5: d93efc492724f5eb2c894e575aa24295
 execute:
     - script: run
