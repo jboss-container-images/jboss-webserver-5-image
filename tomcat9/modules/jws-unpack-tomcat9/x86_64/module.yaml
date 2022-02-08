@@ -3,14 +3,22 @@ schema_version: 1
 name: jws-unpack-tomcat9
 version: "x86_64"
 artifacts:
-    - name: jws-5.6.0.CR1-application-server.zip
+    - name: jws-5.6.0.CR2-application-server.zip
       target: jws-5.6.0-application-server.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90341&product=webserver&version=&downloadType=distributions"
-      md5: 06325e81273dea14bbd737ba5450ae56
-    - name: jws-5.6.0.CR1-application-server-RHEL8-x86_64.zip
+      md5: 356e3c97008455deef2d010aab13abc9
+    - name: jws-5.6.0.CR2-application-server-RHEL8-ppc64le.zip
+      target: jws-5.6.0-application-server-RHEL8-ppc64le.zip
+      description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90341&product=webserver&version=&downloadType=distributions"
+      md5: d93efc492724f5eb2c894e575aa24295
+    - name: jws-5.6.0.CR2-application-server-RHEL8-s390x.zip
+      target: jws-5.6.0-application-server-RHEL8-s390x.zip
+      description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90341&product=webserver&version=&downloadType=distributions"
+      md5: 7319ac937a3e0faf49b0e4012a284e19
+    - name: jws-5.6.0.CR2-application-server-RHEL8-x86_64.zip
       target: jws-5.6.0-application-server-RHEL8-x86_64.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90361&product=webserver&version=&downloadType=distributions"
-      md5: 03f100878360ae0db3b539e4016dbc6c
+      md5: 51843ae584c7737df763b7398aa88136
     - name: jws-5.6.1.CR1-application-server.zip
       target: jws-5.6.1-application-server.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90361&product=webserver&version=&downloadType=distributions"
