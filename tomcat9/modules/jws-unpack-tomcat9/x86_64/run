@@ -2,10 +2,10 @@
 # Unpack the JWS distribution, possibly patch it, move components into place,
 # then delete the rest
 set -e
-JWS_HOME=/opt/jws-5.6/tomcat
+JWS_HOME=/opt/jws-5.7/tomcat
 ADDED_DIR=/tmp/artifacts
-GENERAL_ZIPS=$ADDED_DIR/jws-5.6.?-application-server.zip
-PLATFORM_ZIPS=$ADDED_DIR/jws-5.6.?-application-server-RHEL?-$(uname -m).zip
+GENERAL_ZIPS=$ADDED_DIR/jws-5.7.?-application-server.zip
+PLATFORM_ZIPS=$ADDED_DIR/jws-5.7.?-application-server-RHEL?-$(uname -m).zip
 mkdir -p -m0755 $JWS_HOME
 
 # unzip distribution and apply any patches
@@ -19,4 +19,4 @@ for zip in $PLATFORM_ZIPS; do
 done
 
 # tidy up
-rm -rf $ADDED_DIR/jws-5.6.*
+rm -rf $ADDED_DIR/jws-5.7.*
