@@ -8,6 +8,10 @@ modules:
             version: "11"
           - name: jws-unpack-tomcat9
             version: "x86_64"
+packages:
+      content_sets_file: content_sets_rhel8_jdk11.yml
+      install:
+          - apr-util
 osbs:
       repository:
             name: containers/jboss-webserver-openjdk11-tomcat9
@@ -21,3 +25,4 @@ osbs:
                       - x86_64
                       - s390x
                       - ppc64le
+                      - aarch64
