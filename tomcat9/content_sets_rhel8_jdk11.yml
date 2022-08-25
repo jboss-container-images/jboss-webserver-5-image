@@ -1,3 +1,4 @@
+---
 aarch64:
 - rhel-8-for-aarch64-baseos-rpms
 - rhel-8-for-aarch64-appstream-rpms

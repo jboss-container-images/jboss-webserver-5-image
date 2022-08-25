@@ -3,22 +3,22 @@ schema_version: 1
 name: jws-unpack-tomcat9
 version: "x86_64"
 artifacts:
-    - name: jws-5.7.0.CR1-application-server.zip
+    - name: jws-5.7.0.CR1.1-application-server.zip
       target: jws-5.7.0-application-server.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90341&product=webserver&version=&downloadType=distributions"
-      md5: 6596cea5c004cf72d8d46d6fba7e3e42
-    - name: jws-5.7.0.CR1-application-server-RHEL8-aarch64.zip
+      md5: 3c56cb3154a10ef5d252e795263df4bd
+    - name: jws-5.7.0.CR1.1-application-server-RHEL8-aarch64.zip
       target: jws-5.7.0-application-server-RHEL8-aarch64.zip
-      md5: 4b8f59c45df258fc00f9436e2eb9b930
-    - name: jws-5.7.0.CR1-application-server-RHEL8-ppc64le.zip
+      md5: f6aeaaaeeb01b566bbe9a17ba0658598
+    - name: jws-5.7.0.CR1.1-application-server-RHEL8-ppc64le.zip
       target: jws-5.7.0-application-server-RHEL8-ppc64le.zip
-      md5: 72b0a380a8bf8002ae22404b4992ca83
-    - name: jws-5.7.0.CR1-application-server-RHEL8-s390x.zip
+      md5: 89ca47ab74e9e8e13c314614f163a4da
+    - name: jws-5.7.0.CR1.1-application-server-RHEL8-s390x.zip
       target: jws-5.7.0-application-server-RHEL8-s390x.zip
-      md5: 5369fa3efce960351c116aab782faad8
-    - name: jws-5.7.0.CR1-application-server-RHEL8-x86_64.zip
+      md5: dcd777ae2dffcca38276878fe27a208c
+    - name: jws-5.7.0.CR1.1-application-server-RHEL8-x86_64.zip
       target: jws-5.7.0-application-server-RHEL8-x86_64.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90361&product=webserver&version=&downloadType=distributions"
-      md5: 5ea28ef915d4b1310dc329edf5ebb564
+      md5: c8cf78407029d86171ebcfa5049fe71d
 execute:
     - script: run
