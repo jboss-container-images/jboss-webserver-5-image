@@ -17,17 +17,17 @@ artifacts:
       target: jws-5.7.0-application-server-RHEL8-x86_64.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90361&product=webserver&version=&downloadType=distributions"
       md5: 62b504aa8e6d7350b61c6f0fff776cef
-    - name: jws-5.7.1.CR1-application-server.zip
-      target: jws-5.7.1-application-server.zip
-      md5: 3433805b4de40bf54e9566059d6e7e8c
-    - name: jws-5.7.1.CR1-application-server-RHEL8-ppc64le.zip
-      target: jws-5.7.1-application-server-RHEL8-ppc64le.zip
-      md5: 31439814abb68e660b20b8fd965a7a8c
-    - name: jws-5.7.1.CR1-application-server-RHEL8-s390x.zip
-      target: jws-5.7.1-application-server-RHEL8-s390x.zip
-      md5: a855b7c40f5915872bbc73b0093bc2f9
-    - name: jws-5.7.1.CR1-application-server-RHEL8-x86_64.zip
-      target: jws-5.7.1-application-server-RHEL8-x86_64.zip
-      md5: d257ad3cf430402f89fed9610ba6b4b4
+    - name: jws-5.7.2.CR3-application-server.zip
+      target: jws-5.7.2-application-server.zip
+      md5: 821772d8f41105ddb7a289ff45c99f8e
+    - name: jws-5.7.2.CR3-application-server-RHEL8-ppc64le.zip
+      target: jws-5.7.2-application-server-RHEL8-ppc64le.zip
+      md5: 8ec13849085d574f1c4be2edb65eb42f
+    - name: jws-5.7.2.CR3-application-server-RHEL8-s390x.zip
+      target: jws-5.7.2-application-server-RHEL8-s390x.zip
+      md5: dc41f73fdab69c39b36caadeb9e5c3ae
+    - name: jws-5.7.2.CR3-application-server-RHEL8-x86_64.zip
+      target: jws-5.7.2-application-server-RHEL8-x86_64.zip
+      md5: 8ef925342a939655064fe7bbd0663031
 execute:
     - script: run
