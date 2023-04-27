@@ -1,0 +1,27 @@
+name: "jboss-webserver-5/webserver57-openjdk17-tomcat9-rhel8"
+labels:
+    - name: "com.redhat.component"
+      value: "jboss-webserver-5-webserver57-openjdk17-tomcat9-rhel8-container"
+modules:
+      install:
+          - name: jboss.container.openjdk.jdk
+            version: "17"
+          - name: jws-unpack-tomcat9
+            version: "x86_64"
+packages:
+      content_sets_file: content_sets_rhel8_jdk17.yml
+      install:
+          - apr-util
+osbs:
+      repository:
+            name: containers/jboss-webserver-openjdk17-tomcat9
+            branch: jws-5.7-rhel-8
+      configuration:
+          container:
+              compose:
+                  pulp_repos: true
+              platforms:
+                  only:
+                      - x86_64
+                      - s390x
+                      - ppc64le
