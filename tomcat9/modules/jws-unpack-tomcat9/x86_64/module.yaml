@@ -3,31 +3,19 @@ schema_version: 1
 name: jws-unpack-tomcat9
 version: "x86_64"
 artifacts:
-    - name: jws-5.7.0.CR2-application-server.zip
-      target: jws-5.7.0-application-server.zip
+    - name: jws-5.8.0.CR1-application-server.zip
+      target: jws-5.8.0-application-server.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90341&product=webserver&version=&downloadType=distributions"
-      md5: bfa9949a73564712d6e6a5c0cd71585a
-    - name: jws-5.7.0.CR2-application-server-RHEL8-ppc64le.zip
-      target: jws-5.7.0-application-server-RHEL8-ppc64le.zip
-      md5: 96843fb56e1ed69e5a30f84f61e617f0
-    - name: jws-5.7.0.CR2-application-server-RHEL8-s390x.zip
-      target: jws-5.7.0-application-server-RHEL8-s390x.zip
-      md5: 0f3de66829cc3e7f57cec2c4914abc51
-    - name: jws-5.7.0.CR2-application-server-RHEL8-x86_64.zip
-      target: jws-5.7.0-application-server-RHEL8-x86_64.zip
+      md5: c408997357d0cebe2e8ef9fc023a862d
+    - name: jws-5.8.0.CR1-application-server-RHEL8-ppc64le.zip
+      target: jws-5.8.0-application-server-RHEL8-ppc64le.zip
+      md5: a5426f6a59e9d5a4a8d3ce058070dda7
+    - name: jws-5.8.0.CR1-application-server-RHEL8-s390x.zip
+      target: jws-5.8.0-application-server-RHEL8-s390x.zip
+      md5: 20fe5e33ceb9916d4e068fcb0f004d3f
+    - name: jws-5.8.0.CR1-application-server-RHEL8-x86_64.zip
+      target: jws-5.8.0-application-server-RHEL8-x86_64.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90361&product=webserver&version=&downloadType=distributions"
-      md5: 62b504aa8e6d7350b61c6f0fff776cef
-    - name: jws-5.7.8.CR1-application-server.zip
-      target: jws-5.7.8-application-server.zip
-      md5: c86ae9b4653443a29310af6098c20629
-    - name: jws-5.7.8.CR1-application-server-RHEL8-ppc64le.zip
-      target: jws-5.7.8-application-server-RHEL8-ppc64le.zip
-      md5: d95bce408a753139d8289cb00ec97701
-    - name: jws-5.7.8.CR1-application-server-RHEL8-s390x.zip
-      target: jws-5.7.8-application-server-RHEL8-s390x.zip
-      md5: 659bc1283518504f1923c7402355e5e9
-    - name: jws-5.7.8.CR1-application-server-RHEL8-x86_64.zip
-      target: jws-5.7.8-application-server-RHEL8-x86_64.zip
-      md5: 3f2e420e01e86af05309a0a44953dd97
+      md5: d680a18aa818b75269e84b55f7714705
 execute:
     - script: run
