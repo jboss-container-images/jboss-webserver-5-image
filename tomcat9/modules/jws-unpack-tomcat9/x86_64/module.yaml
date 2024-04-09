@@ -6,16 +6,16 @@ artifacts:
     - name: jws-5.8.0.CR1-application-server.zip
       target: jws-5.8.0-application-server.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90341&product=webserver&version=&downloadType=distributions"
-      md5: c408997357d0cebe2e8ef9fc023a862d
+      md5: 993ebbfe5d8df66d07a3991ab0e7f40d
     - name: jws-5.8.0.CR1-application-server-RHEL8-ppc64le.zip
       target: jws-5.8.0-application-server-RHEL8-ppc64le.zip
-      md5: a5426f6a59e9d5a4a8d3ce058070dda7
+      md5: 6eb66fb2e90d694d0b8edf37ad401229
     - name: jws-5.8.0.CR1-application-server-RHEL8-s390x.zip
       target: jws-5.8.0-application-server-RHEL8-s390x.zip
-      md5: 20fe5e33ceb9916d4e068fcb0f004d3f
+      md5: 3b51b8ab25b800a635118ca735d8e9e5
     - name: jws-5.8.0.CR1-application-server-RHEL8-x86_64.zip
       target: jws-5.8.0-application-server-RHEL8-x86_64.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90361&product=webserver&version=&downloadType=distributions"
-      md5: d680a18aa818b75269e84b55f7714705
+      md5: 882c175c1621bf93ab1075b23d838677
 execute:
     - script: run
