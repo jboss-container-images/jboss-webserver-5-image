@@ -17,5 +17,8 @@ artifacts:
       target: jws-5.8.0-application-server-RHEL8-x86_64.zip
       description: "Artifact is available on Customer Portal: https://access.redhat.com/jbossnetwork/restricted/softwareDetail.html?softwareId=90361&product=webserver&version=&downloadType=distributions"
       md5: 6adf5ff8119af9782bcbb4bb7f948f37
+    - name: jws-5.8.1.DR1-application-server.zip
+      target: jws-5.8.1-application-server.zip
+      md5: ae766538a9f3018b27a6b06c10bfa0e8
 execute:
     - script: run
